@@ -20,8 +20,8 @@ textarea {
 
 header {
     padding: 16px 0;
-    background-color: #182C61;
-    color: #ecf0f1;
+    background-color: #dabb0e;
+    color: #000000;
 }
 
 
@@ -36,7 +36,7 @@ header nav li {
 }
 
 header nav li a {
-    color: #ecf0f1;
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 
@@ -55,7 +55,8 @@ section .container {
 
 .brands-list img, 
 .social-links img {
-    height: 24px;
+    height: 60px;
+    margin-top: 28px;
 }
 
 .social-links li {
@@ -68,6 +69,14 @@ section .container {
 
 }
 
+#about ol {
+    padding: 10px;
+}
+
+.store-front {
+    height: 500px;
+}
+
 .brands-list li {
     display: inline;
     margin-right: 8px;
@@ -76,6 +85,7 @@ section .container {
 section .container {
     align-items: flex-start;
 }
+
 
 section {
     padding: 24px 0;
@@ -90,7 +100,7 @@ section p {
 }
 
 section {
-    color:  #182C61;
+    color:  #000000;
 }
 .store-front {
     margin-right: 32px;
@@ -124,22 +134,22 @@ section h3 {
 }
 
 form button {
-    background-color: #182C61;
+    background-color: #dabb0e;
     color: #ecf0f1;
     border: none;
     cursor: pointer;
 }
 
 form button:hover {
-    background-color: #264085;
+    background-color: #b49d18;
 }
 
 input:focus, textarea:focus {
-    outline-color:#182C61;
+    outline-color:#dabb0e;
 }
 
 footer {
-    background-color: #182C61;
+    background-color: #dabb0e;
     color: #ecf0f1;
     padding: 16px 0;
 }
